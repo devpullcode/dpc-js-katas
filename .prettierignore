@@ -1,0 +1,6 @@
+// prettier-ignore
+<!-- prettier-ignore -->
+
+# Ignore artifacts:
+build
+coverage

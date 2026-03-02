@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "katas/**/*.ts",
+    "katas/**/*.tsx",
+    "katas/**/*.mts",
+    "katas/**/*.cts"
+  ],
+  "exclude": ["node_modules", "dist", "build", "coverage"]
+}

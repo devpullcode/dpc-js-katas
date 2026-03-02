@@ -1,0 +1,32 @@
+{
+  "name": "dpc-js-katas",
+  "version": "1.0.0",
+  "description": "Repositorio de práctica progresiva de algoritmos y resolución de problemas en JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "serve": "npx http-server -p 5500",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:debug": "eslint . --debug",
+    "lint:print-config": "eslint --print-config runner/runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpullcode/dpc-js-katas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/devpullcode/dpc-js-katas/issues"
+  },
+  "homepage": "https://github.com/devpullcode/dpc-js-katas#readme",
+  "devDependencies": {
+    "jest": "30.2.0",
+    "prettier": "3.8.1"
+  }
+}
