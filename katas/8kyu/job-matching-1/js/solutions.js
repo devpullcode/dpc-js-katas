@@ -72,9 +72,9 @@ const assertDefined = (fields) => {
   }
 };
 
-const assertFiniteNumber = (...fields) => {
+const assertFiniteNumber = (fields) => {
   for (const [name, value] of Object.entries(fields)) {
-    if (Number.isFinite(value)) {
+    if (!Number.isFinite(value)) {
       fail(`${name} debe ser un número`);
     }
   }
